@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Notes App</title>
+</head>
+<body>
+  <!-- As a heading -->
+  <nav class="navbar navbar-light bg-light">
+    <span class="navbar-brand mb-0 h2"><strong>My Notes App</strong></span>
+  </nav>
+  <h5><strong>Add Your notes</strong></h5>
+  <div class="form">
+    <textarea class="form-control" id="addTxt"  rows="4"></textarea>
+</div>
+<button type="button" class="btn" id="addBtn">Click to Add</button>
+<hr>
+<h4>Your Notes</h4>
+<hr>
+<div id="notes"  class="row container"></div>
+    <script src="script.js"></script>
+</body>
+</html>

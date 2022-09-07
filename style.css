@@ -1,0 +1,26 @@
+html {
+    
+    scroll-behavior: smooth;
+    background-color: ;
+  }
+  
+  body {
+    background: black;
+ }
+
+
+h5 ,h4{
+    padding: 10px 60px ;
+    margin: 100px 20px ;
+    text-align: center;
+    
+    align-items: center;
+    
+}
+
+.btn{
+    color: brown;
+    border-radius: 4px;
+    margin: 20px 40px;
+    border-color:black ;
+}
