@@ -10,18 +10,27 @@
 </head>
 <body>
   <!-- As a heading -->
-  <nav class="navbar navbar-light bg-light">
-    <span class="navbar-brand mb-0 h2"><strong>My Notes App</strong></span>
-  </nav>
-  <h5><strong>Add Your notes</strong></h5>
-  <div class="form">
-    <textarea class="form-control" id="addTxt"  rows="4"></textarea>
+  <div class="container my-3">
+    <nav class=" shadow-lg navbar navbar-dark bg-dark rounded">
+      
+      <span class="navbar-brand mb-0 h1"><strong>MY Notes App</strong></span>
+    </nav>
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title"><strong>Add a note</strong></h5>
+            <div class="form-group">
+                <textarea class="form-control" id="addTxt" rows="3"></textarea>
+            </div>
+            <button class="btn btn-primary" id="addBtn">Add Note</button>
+        </div>
+    </div>
+    <hr>
+    <h5>Your Notes</h5>
+    <hr>
+    <div id="notes" class="row container-fluid"> </div>
 </div>
-<button type="button" class="btn" id="addBtn">Click to Add</button>
-<hr>
-<h4>Your Notes</h4>
-<hr>
-<div id="notes"  class="row container"></div>
     <script src="script.js"></script>
+
+    
 </body>
 </html>
